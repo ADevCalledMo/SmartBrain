@@ -8,6 +8,10 @@ body {
   background: radial-gradient(circle,  #008793, #00bf72, #a8eb12);
 }
 
+button {
+  cursor: pointer;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

@@ -15,7 +15,6 @@ const SignIn = ({ onRouteChange }) => {
         <label className="db fw6 lh-copy f4" for="password">Password</label>
         <input className="b pa3 input-reset ba bg-transparent hover-bg-black hover-white w-100" type="password" name="password"  id="password" />
       </div>
-
     </fieldset>
     <div className="">
       <input 
@@ -27,7 +26,6 @@ const SignIn = ({ onRouteChange }) => {
     </div>
     <div className="lh-copy mt3">
       <p onClick={() => onRouteChange('register')} className="f4 link dim black db pointer">Register</p>
-
     </div>
   </form>
 </main>
